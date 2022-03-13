@@ -1,7 +1,10 @@
 import {react} from 'react';
+import { authService } from '../fbase';
 function Home(){
     return(
-        <span>Home</span>
+    <span>
+        Home
+    </span>
     );
 }
 

@@ -13,10 +13,10 @@ function App() {
     authService.onAuthStateChanged(user=>{
       if(user){
       setIsLoggin(true);
-      setInitialize(true);  
     } else{
       setIsLoggin(false);
     }
+    setInitialize(true);  
     });
   },[])
   } catch(error){
